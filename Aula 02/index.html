@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Imagens</title>
+
+</head>
+<link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+<body>
+    <h1>Desafio das imagens</h1>
+    <h2>O nome da minha cidade é Vila Velha</h2>
+    <img src="vila velha.jpeg" alt="" width="500px" height="350px" >
+    <br><br>
+    <img src="vv.jpeg" alt="" width="500px" height="350px">
+    <figcaption>Cidade de Vila Velha</figcaption>
+
+    <picture>
+    <!--Imagem para telas menores que 760px-->
+    <source media="(max-width: 760px)" srcset="praiapequena.jpeg" sizes="300px">
+
+    <!--Imagem padrão pra telas maiores-->
+    <img src="praiagrande.jpeg" alt="Praia grande" width="700px" height="400px">
+    </picture>
+
+    
+    
+</body>
+</html>
